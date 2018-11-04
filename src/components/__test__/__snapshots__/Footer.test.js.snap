@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should have same snapshot Footer 1`] = `
+<div>
+  <Connect(Link)
+    visibilityFilter="SHOW_ALL"
+  >
+    Show All
+  </Connect(Link)>
+  <Connect(Link)
+    visibilityFilter="SHOW_ACTIVE"
+  >
+    Active
+  </Connect(Link)>
+  <Connect(Link)
+    visibilityFilter="SHOW_COMPLETED"
+  >
+    Completed
+  </Connect(Link)>
+</div>
+`;
