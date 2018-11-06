@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTodo container should maintain snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="abcd"
+  />
+  <button
+    type="submit"
+  >
+    Add Todo
+  </button>
+</form>
+`;

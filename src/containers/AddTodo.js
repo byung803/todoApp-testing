@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { addTodo } from '../actions';
 
-class AddTodo extends React.Component {
+export class AddTodo extends React.Component {
     state = { value: '' }
 
     handleSubmit = (e) => {

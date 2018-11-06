@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo Compo should have snapshot 1`] = `
+<div>
+  <li
+    onClick={[MockFunction]}
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+  />
+  <button
+    onClick={[MockFunction]}
+  >
+    remove
+  </button>
+</div>
+`;

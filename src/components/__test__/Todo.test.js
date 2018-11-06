@@ -25,4 +25,8 @@ describe('Todo Compo', () => {
         wrapper.find('button').simulate('click');
         expect(removeTodoSpy).toHaveBeenCalled();
     })
+
+    it('should have snapshot', () => {
+        expect(wrapper).toMatchSnapshot();
+    })
 })
