@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList compo with empty todos should return nothing when got empty todo list 1`] = `<div />`;
+
+exports[`TodoList compo with fixture todos should return Todo Components when got todosFixture todo list 1`] = `
+<div>
+  <Todo
+    completed={false}
+    key="1"
+    removeTodo={[Function]}
+    text="first"
+    toggleTodo={[Function]}
+  />
+  <Todo
+    completed={true}
+    key="2"
+    removeTodo={[Function]}
+    text="second"
+    toggleTodo={[Function]}
+  />
+  <Todo
+    completed={false}
+    key="3"
+    removeTodo={[Function]}
+    text="third"
+    toggleTodo={[Function]}
+  />
+</div>
+`;
